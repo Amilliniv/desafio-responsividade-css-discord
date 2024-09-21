@@ -1,0 +1,84 @@
+@media screen and (max-width: 768px){
+
+    .hero-content{
+        flex-direction: column;
+        padding: 0 24px;
+    }
+
+
+    .hero-content h1 {
+        font-size: 2rem;
+        font-size: 2rem;
+        line-height: 2rem;
+        font-weight: 400;
+        align-self: flex-start;
+        text-align: justify;
+        
+    }
+
+    .hero-content p {
+        
+        font-size: 1rem;
+        width: 381px;
+        text-align: justify;
+        align-content: center;
+        
+    }
+
+    .buttons{
+        flex-direction: column;
+        align-self: center;
+        
+    }
+
+    .button, .buttona {
+        width: 17.563rem;;
+    }
+
+    .first-section, .second-section, .third-section, .last-section  {
+        flex-direction: column;
+        
+        align-self: center;
+        width: 378px;
+        padding: 10px 24px 40px 24px;
+        gap: 27px;
+        margin-top: 10px;
+    }
+
+    .third-section {
+        flex-direction: column-reverse;
+    }
+    .first-section h2, .second-section h2, .third-section h2 {
+        width: 370px;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 32px;
+        
+
+    }
+
+    .first-section p, .second-section p, .third-section p, .last-section p {
+        width: 378px;
+        font-size: 1rem;
+        line-height: 21,79px;
+        text-align: start;
+        margin-top: 1rem;
+        
+        
+
+    }
+    .first-section img, .second-section img, .third-section img, .last-section img {
+        width: 379px;
+        height: 252px;
+        
+    }
+    
+    .last-section h2 {
+        width: 376px;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 32px;
+        text-align: start;
+    }
+
+}
